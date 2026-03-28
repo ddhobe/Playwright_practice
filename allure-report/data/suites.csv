@@ -1,2 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","11722","playwright actions-input Box","chromium","Sat Mar 28 15:34:00 IST 2026","passed","Sat Mar 28 15:34:12 IST 2026","","pwactions.spec.ts","",""
+"","5812","Radio buttons","chromium","Sat Mar 28 18:44:48 IST 2026","passed","Sat Mar 28 18:44:54 IST 2026","","pwactions.spec.ts","",""
+"","7894","playwright actions-input Box","chromium","Sat Mar 28 18:44:49 IST 2026","passed","Sat Mar 28 18:44:56 IST 2026","","pwactions.spec.ts","",""
+"","28871","playwright Action-check box","chromium","Sat Mar 28 18:44:49 IST 2026","passed","Sat Mar 28 18:45:18 IST 2026","","pwactions.spec.ts","",""
