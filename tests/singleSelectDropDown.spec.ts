@@ -71,7 +71,7 @@ test("multiselect dropdown", async ({ page }) => {
 
 // sorted dropdown
 
-test.only("sorted dropdown", async ({page})=>{
+test("sorted dropdown", async ({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/");
     const   options:Locator= page.locator("#animals > option");
     const optionText:string[]= (await options.allTextContents()).map(text=>text.trim())

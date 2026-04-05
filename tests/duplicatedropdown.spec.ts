@@ -35,7 +35,7 @@ test("duplicate Dropdown", async ({ page }) => {
 
 // Autosuggest Dropdown
 
-test.only("Autosuggest dropdown",async ({page})=>{
+test("Autosuggest dropdown",async ({page})=>{
     await page.goto("https://www.flipkart.com/");
    // await page.locator("input[name='q']").fill('smart', { timeout: 10000 });
    const input:Locator= page.getByPlaceholder('Search for Products, Brands and More').first();
