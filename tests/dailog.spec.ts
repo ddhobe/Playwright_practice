@@ -24,7 +24,7 @@ test("simple dialog",async({page})=>{
 
 // B] confirm Dialog
 // confirmation dialog with text and ok and cancel button
-test.only('confirmation Dialog',async({page})=>{
+test('confirmation Dialog',async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/");
 
     // registered a dialog handler
